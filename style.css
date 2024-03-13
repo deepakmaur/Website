@@ -8,6 +8,7 @@
 }
 
 body{
+    
     background-color: #020912;
     min-height: 100vh;
     overflow-x: hidden;
@@ -121,9 +122,8 @@ header{
     background-attachment: fixed;
 }
 #text{
-    top: 20%;
     position: absolute;
-    font-size: 5em;
+    font-size: 3em;
     color: #1b2831;
     
     text-shadow: 2px 4px 5px #f9f9f9;
@@ -134,21 +134,18 @@ header{
     left: 0;
     width: 100%;
     pointer-events: none;
+    filter: drop-shadow(6px 6px 1px rgb(186, 181, 181));
 }
 
-.I-1{
-    position: absolute;
-    filter: drop-shadow(6px 6px 1px rgb(186, 181, 181)
-    );
-}
+
 
 .parallax img#gate-left{
-    position: fixed;
-    transform: translateX(-282px);
+    position: absolute;
+    transform: translateX(-380px);
 }
 .parallax img#gate-right{
-    position: fixed;
-    transform: translateX(305px);
+    position: absolute;
+    transform: translateX(380px);
 }
 .sec{
     margin-top: 90px;
