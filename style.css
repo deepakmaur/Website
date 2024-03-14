@@ -120,6 +120,7 @@ header{
     background-size: cover;
     background-position:center ;
     background-attachment: fixed;
+    overflow: hidden;
 }
 #text{
     position: absolute;
@@ -136,8 +137,6 @@ header{
     pointer-events: none;
     filter: drop-shadow(6px 6px 1px rgb(186, 181, 181));
 }
-
-
 
 .parallax img#gate-left{
     position: absolute;
@@ -163,5 +162,14 @@ header{
     color: #fff;
     font-weight: 300;
     text-align: justify;
+}
+
+@media screen and (min-width: 992px){
+    .tree-left{
+        top: 50%;
+    }
+    .gate-left{
+        top: 50%;
+    }
 }
 
